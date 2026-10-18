@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MARINDUQUE CARE: general health and wellness education.">
+  <title>MARINDUQUE CARE | Health & Wellness</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="brand" aria-label="Marinduque Care home">
+      <span class="brand-mark" aria-hidden="true">+</span>
+      <span><strong>MARINDUQUE CARE</strong><small>Health & Wellness for Every Day</small></span>
+    </div>
+    <nav aria-label="Main navigation">
+      <a href="#habits">Daily habits</a>
+      <a href="#tips">Wellness tips</a>
+      <a href="#resources">Health resources</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR COMMUNITY WELLNESS COMPANION</p>
+        <h1>Small steps.<br><span>Healthier days.</span></h1>
+        <p>Explore simple, general wellness information and build everyday habits at your own pace.</p>
+        <a class="primary-link" href="#habits">Start your daily check-in <span aria-hidden="true">→</span></a>
+        <p class="local-note">Made as an educational prototype for the Marinduque community.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div><div class="plant plant-one"></div><div class="plant plant-two"></div>
+        <div class="heart-card"><span>♡</span><strong>Care for<br>yourself</strong><small>One day at a time</small></div>
+      </div>
+    </section>
+
+    <section class="section" id="habits">
+      <div class="section-heading">
+        <div><p class="eyebrow">A GENTLE DAILY CHECK-IN</p><h2>Your wellness habits</h2></div>
+        <p>Tick the habits you have completed today.</p>
+      </div>
+      <div class="progress-card">
+        <div class="progress-top"><strong id="progress-label">0 of 5 habits completed</strong><span id="progress-percent">0%</span></div>
+        <div class="progress-track" role="progressbar" aria-label="Daily habits completed" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" id="progress-bar"><div id="progress-fill"></div></div>
+        <div class="habit-list">
+          <label class="habit"><input type="checkbox" class="habit-check"><span class="habit-icon" aria-hidden="true">💧</span><span><strong>Drink water regularly</strong><small>Make time to drink water throughout the day.</small></span></label>
+          <label class="habit"><input type="checkbox" class="habit-check"><span class="habit-icon" aria-hidden="true">🥗</span><span><strong>Enjoy balanced meals</strong><small>Include a variety of foods when available.</small></span></label>
+          <label class="habit"><input type="checkbox" class="habit-check"><span class="habit-icon" aria-hidden="true">🌙</span><span><strong>Make time for rest</strong><small>Try to keep a regular sleep routine.</small></span></label>
+          <label class="habit"><input type="checkbox" class="habit-check"><span class="habit-icon" aria-hidden="true">🚶</span><span><strong>Move in a way that feels good</strong><small>Choose activity appropriate for your abilities.</small></span></label>
+          <label class="habit"><input type="checkbox" class="habit-check"><span class="habit-icon" aria-hidden="true">🧼</span><span><strong>Practice everyday hygiene</strong><small>Wash your hands and keep personal items clean.</small></span></label>
+        </div>
+        <p class="status-message" id="status-message" role="status" aria-live="polite">Every small step counts. Choose a habit to begin.</p>
+        <button class="reset-button" id="reset-checklist" type="button">Reset checklist</button>
+      </div>
+    </section>
+
+    <section class="section tips-section" id="tips">
+      <div class="section-heading">
+        <div><p class="eyebrow">GENERAL EDUCATIONAL INFORMATION</p><h2>Everyday wellness tips</h2></div>
+        <p>Simple reminders for supporting everyday well-being.</p>
+      </div>
+      <div class="tips-grid">
+        <article class="tip-card"><div class="tip-symbol aqua" aria-hidden="true">◉</div><h3>Hydration</h3><p>Keep drinking water available and drink regularly. Individual needs can vary with activity, weather, and health circumstances.</p></article>
+        <article class="tip-card"><div class="tip-symbol peach" aria-hidden="true">✿</div><h3>Balanced meals</h3><p>When possible, enjoy a variety of foods, including vegetables, fruits, and other locally available nourishing foods.</p></article>
+        <article class="tip-card"><div class="tip-symbol lavender" aria-hidden="true">☾</div><h3>Rest and routine</h3><p>A consistent daily routine can make it easier to make time for sleep, relaxation, and activities you enjoy.</p></article>
+      </div>
+    </section>
+
+    <section class="resource-section" id="resources">
+      <div class="resource-icon" aria-hidden="true">✚</div>
+      <div><p class="eyebrow">WHEN YOU NEED MORE SUPPORT</p><h2>Health information is a starting point.</h2><p>This website provides general education, not diagnosis or personalized medical advice. For symptoms, health concerns, or questions about your care, contact a qualified health professional or an appropriate local health facility. For emergencies, contact local emergency services.</p></div>
+    </section>
+    <p class="demo-note">Student demonstration prototype. This page does not connect to a clinic, store personal information, or provide live health alerts.</p>
+  </main>
+  <footer><span>© MARINDUQUE CARE</span><span>Care • Learn • Thrive</span></footer>
+</body>
+</html>
